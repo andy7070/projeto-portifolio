@@ -1,0 +1,154 @@
+/*resete */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+}
+
+/* resete */
+/* estilos gerais */
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: 200px;
+  padding: 18px 30px;
+  background: #9800ce;
+  margin-top: 10px;
+  letter-spacing: .05rem;
+  white-space: nowrap;
+  color: #040305;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* header */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    backdrop-filter: blur(20px);
+}
+
+.header .logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+.header .nav-list {
+    display: flex;
+    gap: 40px;
+}
+.header .nav-list li a {
+ color:  #fff;
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 1.25rem;
+ padding: 5px 10px;
+}
+.header .nav-list li:hover a {
+    color: #040305;
+}
+/* header */
+
+/* home */
+#home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background: #ccc;
+}
+
+#home .conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 650px;
+    z-index: 10;
+
+}
+#home .conteudo p{
+    color: #040305;
+    max-width: 540px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+#home .conteudo h2 {
+    font-size: 4rem;
+    color: #9800ce;
+}
+#home .mulher-img {
+    position: absolute;
+    bottom: 0;
+    max-height: 100vh;
+    right: 100px;
+}
+#home::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 25vw;
+    border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw;
+    background: #9800ce;
+
+
+}
+/* estilo da seçao */
+#servicos, #portifolio,  #contato{
+    background: #34353a;
+    min-height: 100vh;
+}
+
+.textoSecao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.textoSecao h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+.textoSecao p {
+    max-width: 700px;
+     text-align: center;
+     color: #aaa;
+     font-size: 1.1rem;
+     line-height: 1.5rem;
+}
+#servicos .conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+}
+.conteudo .imgcaixa {
+    background: #040305;
+}
+.conteudo .imgcaixa img {
+    max-width: 100px;
+    filter: invert(1);
+
+}
+
+/* estilo da seçao */
