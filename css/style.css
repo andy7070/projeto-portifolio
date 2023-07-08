@@ -327,7 +327,7 @@ footer p {
     }
     #home {
         position: relative;
-        width: 100%;
+        width: 80%;
         min-height: 100vh;
         display: flex;
         justify-content: space-between;
