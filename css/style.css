@@ -283,13 +283,21 @@ footer p {
       #contato .conteudo a {
         background: #2e2f34;
         color: #fff;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 50px;
+        
+        align-items: baseline;
         text-decoration: none;
         font-size: 0.90rem;
         transition: .4s;
+    }
+    #contato .conteudo {
+        display: block;
+
+    }
+    #contato .conteudo a ion-icon {
+        color: #fff;
+        font-size: 1.25rem;
+        transition: .5s;
     }
     #home .mulher-img {
         position: absolute;
