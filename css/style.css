@@ -346,7 +346,7 @@ footer p {
         position: absolute;
         max-height: 28vh;
         max-width: 100vh;
-       margin: auto;
+       margin:auto;
     }
     #home::before {
         content: '';
