@@ -329,7 +329,7 @@ footer p {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        max-width: 650px;
+        max-width: 300px;
         z-index: 10;
     
     }
@@ -337,7 +337,7 @@ footer p {
         position: absolute;
         max-height: 50vh;
         max-width: 50vh;
-        left: 200px;
+        left: 150px;
     }
     #home::before {
         content: '';
