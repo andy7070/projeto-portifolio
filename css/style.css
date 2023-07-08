@@ -330,7 +330,7 @@ footer p {
     #home .conteudo{
         display: flex;
         gap: 10px;
-        max-width: 400px;
+        max-width: 650px;
         z-index: 10;
     
     }
@@ -373,6 +373,10 @@ footer p {
     #home .conteudo h2 {
         font-size: 1.25rem;
         color: #9800ce;
+    }
+    #home .conteudo a {
+        font-size: 0.90rem;
+        width: 150px;
     }
     .textoSecao h2 {
         font-size: 1rem;
