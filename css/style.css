@@ -326,7 +326,7 @@ footer p {
         transition: .5s;
     }
     #home {
-        position: relative;
+        position: absolute;
         width: 80%;
         min-height: 100vh;
         display: flex;
@@ -347,7 +347,7 @@ footer p {
         position: absolute;
         max-height: 28vh;
         max-width: 100vh;
-        left: 300px;
+       margin: auto;
     }
     #home::before {
         content: '';
