@@ -337,7 +337,7 @@ footer p {
         position: absolute;
         max-height: 30vh;
         max-width: 50vh;
-        left: 150px;
+        left: 300px;
     }
     #home::before {
         content: '';
