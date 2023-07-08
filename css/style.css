@@ -337,7 +337,7 @@ footer p {
     #home .mulher-img {
         position: absolute;
         right: 10px;
-        max-height: 28vh;
+        max-height: 50vh;
         max-width: 100vh;
        margin:auto;
     }
@@ -348,9 +348,9 @@ footer p {
         right: 0;
         width: 45vw;
         height: 25vw;
-        border-top-right-radius: 25vw;
-        border-top-left-radius: 25vw;
-        background: #9800ce;
+        border-top-right-radius: 50vw;
+        border-top-left-radius: 100vw;
+        background: transparent;
     
     
     }
