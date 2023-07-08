@@ -337,7 +337,6 @@ footer p {
     
     #home .conteudo{
         display: flex;
-        
         gap: 10px;
         max-width: 300px;
         z-index: 10;
@@ -356,8 +355,8 @@ footer p {
         right: 0;
         width: 45vw;
         height: 25vw;
-        border-top-right-radius: 35vw;
-        border-top-left-radius: 35vw;
+        border-top-right-radius: 70vw;
+        border-top-left-radius: 70vw;
         background: #9800ce;
     
     
