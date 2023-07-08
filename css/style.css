@@ -361,14 +361,14 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 50px;
+        padding: 10px;
         background: #ccc;
     }
     #home .conteudo p{
         color: #040305;
         max-width: 220px;
-        font-size:0.85rem;
-        line-height: 1.8rem;
+        font-size:0.90rem;
+        line-height: 1.5rem;
     }
     #home .conteudo h2 {
         font-size: 1.25rem;
