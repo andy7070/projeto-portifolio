@@ -245,6 +245,18 @@ footer p {
         justify-content: space-between;
         gap: 30px;
     }
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 70%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        z-index: 20;
+        backdrop-filter: blur(20px);
+    }
     .header .nav-list li a {
         color:  #fff;
         text-decoration: none;
@@ -312,6 +324,14 @@ footer p {
         color: #fff;
         font-size: 1.25rem;
         transition: .5s;
+    }
+    #home .conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 650px;
+        z-index: 10;
+    
     }
     #home .mulher-img {
         position: absolute;
